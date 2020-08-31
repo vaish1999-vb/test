@@ -857,3 +857,104 @@ footer .social a:hover{
     font-weight: 400;
     font-size: 15px;
 }
+
+@media(max-width: 991px){
+    .home .home-content .block h1{
+        font-size: 50px;
+    }
+}
+@media(max-width: 767px){
+    .about-me .about-content .text{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .about-me .about-content .img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container1{
+        
+        max-width: 80%
+        flex: 0 0 80%;
+    }
+    
+    .container1 .box{
+        
+        max-width: 80%;
+        flex: 0 0 80%;
+    }
+    .container{
+        
+        max-width: 80%
+        flex: 0 0 80%;
+    }
+    
+    .container .box{
+        
+        max-width: 80%;
+        flex: 0 0 80%;
+        
+        
+    }
+    
+    
+    
+    .skills .skills-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0px;
+    }    
+    .skills .img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        
+    }
+    .hobby .hobby-gallery .item{
+    
+        flex: 0 0 50%;
+        max-width: 100%;
+        padding: 5px;
+        position: relative;
+    }
+    .hobby .hobby-gallery .item img{
+       max-width: 100%;
+       flex: 0 0 50%;
+       
+    }
+
+    .contact-us .contact-form{
+        padding: 40px 20px;
+    }
+    .contact-us .contact-form .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media(max-width: 500px){
+    .home .home-content .block h1{
+        font-size: 30px;
+    }
+    .home .home-content .block h3{
+        font-size: 20px;
+    }
+    .home .home-content .block h6{
+        font-size: 10px;
+    }
+    .home .home-content .block {
+        padding-left: 20px;
+    }
+    .hobby .hobby-gallery .item{
+    
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-content .text .info .list p{
+        flex: 0 0 100%;
+    }
+}
