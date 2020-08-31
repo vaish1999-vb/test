@@ -791,7 +791,7 @@ header .navbar ul li a.active::before{
     color: #838383;
 }
 .contact-us .contact-form .button{
-    padding-left: 900px;
+    
     flex: 0 0 100%;
     max-width: 100%;
 }
